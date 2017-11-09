@@ -10,8 +10,8 @@ class App < Sinatra::Base
     erb :create_puppy
   end
 
-  post '/' do
-
+  post '/display_puppy' do
+    erb :display_puppy
   end
 
 
