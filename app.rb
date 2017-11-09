@@ -6,7 +6,7 @@ class App < Sinatra::Base
     erb :index
   end
 
-  get '/create_puppy.erb' do
+  get '/NEW' do
     erb :create_puppy
   end
 
