@@ -7,7 +7,6 @@ class App < Sinatra::Base
   end
 
   get '/create_puppy.erb' do
-
     erb :create_puppy
   end
 
