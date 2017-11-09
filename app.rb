@@ -6,5 +6,9 @@ class App < Sinatra::Base
 
   end
 
+  get '/NEW' do
+
+  end
+
   
 end
